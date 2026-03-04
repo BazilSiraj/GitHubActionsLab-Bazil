@@ -45,13 +45,13 @@ This workflow demonstrates parallel job execution across different operating sys
 ## Challenges and Solutions
 
 ### Challenge 1: YAML Syntax
-**Solution:** Validate YAML syntax before pushing using online YAML validators to catch indentation errors early.
+**Solution:** Validate YAML syntax before pushing using online YAML validators to catch indentation errors early whenc completing the program.
 
-### Challenge 2: Windows PowerShell vs Bash
-**Solution:** Use Windows-compatible commands (`systeminfo`, `type`) for Windows jobs and Unix commands (`uname`, `cat`) for Linux/macOS jobs.
+### Challenge 2: Trying to Move Main to Master
+**Solution:** Use Actions to create workflow for the new code of Master prompt instead of Main for both.
 
 ### Challenge 3: Job Execution Order
-**Solution:** Use meaningful job names and review the Actions tab's dependency visualization to verify correct execution order.
+**Solution:** Use meaningful job names and review the Actions tab's dependency visualization to verify correct execution order many times until send out.
 
 ## How to Test
 
